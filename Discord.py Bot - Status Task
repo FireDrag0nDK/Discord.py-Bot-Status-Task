@@ -1,0 +1,6 @@
+@bot.event async def on_ready(): 	
+    await client.change_presence(status=discord.Status.online)  
+    
+    await client.change_presence(status=discord.Status.idle)  
+    
+    await bot.change_presence(status=discord.Status.dnd)
